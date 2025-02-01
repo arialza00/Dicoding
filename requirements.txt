@@ -4,3 +4,10 @@ streamlit
 yfinance
 pandas-datareader
 prophet
+pydeck, 
+diskcache, 
+memory_profiler, 
+import_ipynb, 
+matplotlib, 
+seaborn, 
+babel
