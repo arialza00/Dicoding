@@ -8,6 +8,7 @@ pydeck,
 diskcache, 
 memory_profiler, 
 import_ipynb, 
+nbformat, 
 matplotlib, 
 seaborn, 
 babel
