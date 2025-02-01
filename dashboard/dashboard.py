@@ -1,6 +1,6 @@
 import sys
 import os
-import import_ipynb
+import nbformat
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Add the Dicoding folder to the system path
