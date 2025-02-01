@@ -1,3 +1,4 @@
+import sys
 import subprocess
 
 def install_requirements(file_path='requirements.txt'):
