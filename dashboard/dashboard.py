@@ -1,14 +1,15 @@
 import sys
 import os
+import import_ipynb
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-import file
 
 # Add the Dicoding folder to the system path
 dicoding_dir = os.path.abspath('Dicoding')
 sys.path.insert(0, dicoding_dir)
 
+import notebook
 # Import the module from the dashboard folder
-notebook = file.notebook
+notebook = notebook
 
 import seaborn as sns
 from matplotlib import pyplot as plt
@@ -18,7 +19,6 @@ import pydeck as pdk
 import pandas as pd
 from diskcache import Cache
 from babel.numbers import format_currency
-
 
 # Initialize DiskCache
 cache = Cache(directory='cache')
