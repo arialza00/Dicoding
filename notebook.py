@@ -30,7 +30,7 @@ customers_df = pd.read_csv(file_path, delimiter=",",
                                     'customer_state' : 'str'})
 
 # print the DataFrame
-customers_df.head()
+# customers_df.head()
 
 
 
@@ -58,7 +58,7 @@ geolocation_df = pd.read_csv(file_path, delimiter=",",
                                     'geolocation_state' : 'str'})
 
 # print the DataFrame
-geolocation_df.head()
+# geolocation_df.head()
 
 
 
@@ -91,7 +91,7 @@ order_items_df = pd.read_csv(file_path, delimiter=",",
 
 order_items_df['total_value'] = order_items_df['price'] + order_items_df['freight_value']
 # print the DataFrame
-order_items_df.head()
+# order_items_df.head()
 
 
 
@@ -118,7 +118,7 @@ order_payments_df = pd.read_csv(file_path, delimiter=",",
                                     'payment_value' : 'float64'})
 
 # print the DataFrame
-order_payments_df.head()
+# order_payments_df.head()
 
 
 
@@ -147,7 +147,7 @@ order_reviews_df = pd.read_csv(file_path, delimiter=",",
                                      'review_creation_date' : 'str'})
 
 # print the DataFrame
-order_reviews_df.head()
+# order_reviews_df.head()
 
 
 
@@ -180,7 +180,7 @@ orders_df = pd.read_csv(file_path, delimiter=",",
                                      'order_estimated_delivery_date' : 'str'})
 
 # print the DataFrame
-orders_df.head()
+# orders_df.head()
 
 
 # %% [markdown]
@@ -200,7 +200,7 @@ product_category_name_df = pd.read_csv(file_path, delimiter=",",
                                      'product_category_name_english'  : 'str'})
 
 # print the DataFrame
-product_category_name_df.head()
+# product_category_name_df.head()
 
 
 
@@ -259,7 +259,7 @@ sellers_df = pd.read_csv(file_path, delimiter=",",
                                      'seller_state'  : 'str'})
 
 # print the DataFrame
-sellers_df.head()
+# sellers_df.head()
 
 # %% [markdown]
 # # **Deskripsi Dataset**
