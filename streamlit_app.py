@@ -1,4 +1,4 @@
 import setup
-from dashboard import dashboard
+from dashboard.dashboard as dashboard
 
 dashboard
